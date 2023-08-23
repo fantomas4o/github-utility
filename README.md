@@ -15,7 +15,6 @@ Before using this application, ensure you have the following:
 1. Clone this repository to your local machine.
 2. Navigate to the repository's directory.
 
-```sh
 git clone https://github.com/fantomas4o/github-utility.git
 
 Install the required Python packages using pip:
@@ -26,7 +25,7 @@ Usage
 
 Run the application by executing the following command:
 
-python app.py
+python3 app.py
 
 Functionality
 
@@ -45,15 +44,6 @@ The selected files will be uploaded to the specified GitHub repository.
 
 This is a simple utility application built using Python and the Tkinter library that allows you to perform basic actions on GitHub repositories, such as uploading files and cloning repositories. The app utilizes the GitHub API and provides a graphical user interface for interacting with GitHub.
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Functionality](#functionality)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Prerequisites
 
 Before using this application, ensure you have the following:
@@ -67,19 +57,20 @@ Before using this application, ensure you have the following:
 1. Clone this repository to your local machine.
 2. Navigate to the repository's directory.
 
-git clone https://github.com/your-username/github-utility-app.git
-cd github-utility-app
+git clone https://github.com/fantomas4o/github-utility.git
+
 Install the required Python packages using pip:
-sh
-Copy code
+
 pip install tk github
+
 Usage
+
 Run the application by executing the following command:
 
-sh
-Copy code
 python app.py
+
 Functionality
+
 The GitHub Utility App provides the following features:
 
 1. Uploading Files to a Repository
